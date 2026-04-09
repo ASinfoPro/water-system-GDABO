@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add custom RTL styles */
+
+body {
+  direction: rtl;
+}
+
+.some-class {
+  text-align: right;
+}
